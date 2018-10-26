@@ -3,7 +3,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   client.user.setGame(` By Boker #8956 .`,'https://www.twitch.tv/Gangs');
   console.log('---------------');
-  console.log('Rd-Music 3 Is Online')
+  console.log('Rd-Music 2 Is Online')
   console.log('---------------')
 });
 client.on("message", message => {
